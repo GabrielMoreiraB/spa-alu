@@ -1,0 +1,31 @@
+@use '../abstract/variaveis';
+
+.mensagem{
+    width: 80%;
+    display: flex;
+    margin: 2rem auto;
+    background-color: $cor-4;
+    border-radius: 20px 0;
+    flex-wrap: wrap;
+    .mensagem-img{
+        width: 45%;
+        img{
+            width: 300px;
+            padding: 1rem;
+        }
+    }
+    .mensagem-text{
+        padding: 10px;
+        text-align: center;
+        width: 45%;
+        color: $cor-3;
+        h3{
+            font-size: $tamanho-texto*1.5;
+            font-weight: bold;
+        }
+        h4{
+            font-size: $tamanho-texto;
+            font-weight: bold;
+        }
+    }
+}
